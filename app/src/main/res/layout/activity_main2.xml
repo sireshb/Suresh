@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textview_show_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_marginStart="50dp"
+        android:textSize="8sp"/>
+    <TextView
+        android:id="@+id/textview_show_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageview_profile_dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="120dp"
+        android:textSize="18sp"/>
+    <ImageView
+        android:id="@+id/imageview_profile_dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/d97bbb08017ac2309307f0822e63d082"/>
+    <TextView
+        android:id="@+id/textview_show_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_below="@id/imageview_profile_dp"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/textview_show_fullname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Loading"
+        android:textColor="#1E8A23"
+        android:layout_below="@+id/textview_show_email"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/textview_show_mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_show_fullname"
+        android:hint="Loading"
+        android:textColor="#FB0458"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"/>
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/black"
+        android:layout_below="@+id/textview_show_mobile"/>
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/v1"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <EditText
+        android:id="@+id/edtlarea"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/spinner3"
+        android:textColorHint="#6E6F70"
+        android:textColor="#6E6F70"
+        android:hint="Loading area name/address"
+        android:layout_marginTop="0dp"
+        android:textSize="16sp"/>
+
+
+    <EditText
+        android:id="@+id/edtlcity"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/edtlarea"
+        android:textColorHint="#6E6F70"
+        android:textColor="#6E6F70"
+        android:hint="near city"
+        android:layout_marginTop="0dp"
+        android:textSize="16sp"/>
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edtlcity"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <EditText
+        android:id="@+id/edtuarea"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/spinner1"
+        android:textColorHint="#6E6F70"
+        android:textColor="#6E6F70"
+        android:hint="unloading area name/address"
+        android:layout_marginTop="0dp"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/edtucity"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/edtuarea"
+        android:textColorHint="#6E6F70"
+        android:textColor="#6E6F70"
+        android:hint="near city"
+        android:layout_marginTop="0dp"
+        android:textSize="16sp"/>
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edtucity"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <EditText
+        android:id="@+id/edtdisc"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/spinner2"
+        android:textColorHint="#6E6F70"
+        android:textColor="#6E6F70"
+        android:hint="discription of load"
+        android:layout_marginTop="0dp"
+        android:textSize="16sp"/>
+    <EditText
+        android:id="@+id/edtrate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/edtdisc"
+        android:textColorHint="#6E6F70"
+        android:textColor="#6E6F70"
+        android:hint="frieght amount"
+        android:layout_marginTop="0dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/edttd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="time"
+        android:textColor="@color/white"
+        android:layout_below="@+id/edtrate"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:id="@+id/btninsert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:text="insert data"/>
+
+</RelativeLayout>

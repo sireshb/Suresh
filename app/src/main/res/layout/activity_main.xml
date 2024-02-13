@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvconhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="conditions"
+        android:textSize="21sp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tvcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvconhead"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:textAlignment="center"
+        android:text="If you want to use this app, you have to agree to our conditions, otherwise you will not be able to use this app
+ We have nothing to do with the information in the user post, we are just providing information
+
+ So if you are a transporter then load after checking the documents of the vehicle you intend to load as we do not have any documents of the vehicle
+
+  It is not our responsibility if your consignment does not reach its destination, it is a matter for you and the lorry owner.
+
+  Money transactions and rentals should be done according to your wishes
+
+  If the product or vehicle is damaged, you will have to resolve the issue with the respective user
+
+  We are not responsible if the vehicle is missing or the consignment is short or the consignment is missing
+
+  If you are a transporter, check the entire vehicle as it may be a stolen vehicle.  If you are the person concerned with the vehicle and choose to load then load only after the complete details of the load are clear as the load user may not be the
+
+  We are not responsible for accidents, damages, missing cases, financial transactions, rental balances etc.
+
+ You are solely responsible for the consequences of any loss or inconvenience caused by your post."
+
+        android:textSize="12sp"
+        tools:ignore="HardcodedText" />
+
+
+
+    <CheckBox
+        android:id="@+id/checkbox_agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvcon"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I Agree"
+        android:textSize="18sp"
+        android:layout_below="@id/tvcon"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@id/checkbox_agree"/>
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="submit"/>
+
+</RelativeLayout>

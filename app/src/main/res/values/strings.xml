@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TruckTrans</string>
+    <string name="registration">Registration</string>
+    <string name="openThird">open Third Activity</string>
+    <string name="title_activity_goa_loading">GoaLoading</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="andhratext">ANDHRA</string>
+    <string name="andhra">Andhr</string>
+    <string name="andhras">Andhra</string>
+    <string name="arunachals">ARUNACHAL</string>
+    <string name="bhutans">BHUTAN</string>
+    <string name="assams">ASSAM</string>
+    <string name="bihars">BIHAR</string>
+    <string name="chattisgarhs">CHATTISGARH</string>
+    <string name="delhis">DELHI</string>
+    <string name="gujarats">GUJARAT</string>
+    <string name="goas">GOA</string>
+    <string name="himachals">HIMACHAL</string>
+    <string name="haryanas">HARYANA</string>
+    <string name="jks">JK</string>
+    <string name="jharkhands">JHARKHAND</string>
+    <string name="karnatakas">KARNATAKA</string>
+    <string name="keralas">KERALA</string>
+</resources>

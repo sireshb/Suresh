@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.perRNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/addtext_11_05_06_47_26__1_"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/addtext_11_05_06_47_26__1_"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TruckTrans"
+        tools:targetApi="31">
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpLoading"
+            android:exported="false" />
+        <activity
+            android:name=".UpLorry"
+            android:exported="false" />
+        <activity
+            android:name=".WbengalVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".WbengalTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".WbengalTanker"
+            android:exported="false" />
+        <activity
+            android:name=".WbengalLorry"
+            android:exported="false" />
+        <activity
+            android:name=".WbengalLoading"
+            android:exported="false" />
+        <activity
+            android:name=".WbengalContainer"
+            android:exported="false" />
+        <activity
+            android:name=".UttarakhandVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".UttarakhandTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".UttarakhandTanker"
+            android:exported="false" />
+        <activity
+            android:name=".UttarakhandLorry"
+            android:exported="false" />
+        <activity
+            android:name=".UttarakhandLoading"
+            android:exported="false" />
+        <activity
+            android:name=".UttarakhandContainer"
+            android:exported="false" />
+        <activity
+            android:name=".UpVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".UpTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".UpTanker"
+            android:exported="false" />
+        <activity
+            android:name=".UpContainer"
+            android:exported="false" />
+        <activity
+            android:name=".TripuraVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".TripuraTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".TripuraTanker"
+            android:exported="false" />
+        <activity
+            android:name=".TripuraLorry"
+            android:exported="false" />
+        <activity
+            android:name=".TripuraLoading"
+            android:exported="false" />
+        <activity
+            android:name=".TripuraContainer"
+            android:exported="false" />
+        <activity
+            android:name=".TelanganaVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".TelanganaTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".TelanganaLorry"
+            android:exported="false" />
+        <activity
+            android:name=".TelanganaTanker"
+            android:exported="false" />
+        <activity
+            android:name=".TelanganaLoading"
+            android:exported="false" />
+        <activity
+            android:name=".TelanganaContainer"
+            android:exported="false" />
+        <activity
+            android:name=".TamilnaduVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".TamilnaduTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".TamilnaduTanker"
+            android:exported="false" />
+        <activity
+            android:name=".TamilnaduLorry"
+            android:exported="false" />
+        <activity
+            android:name=".TamilnaduLoading"
+            android:exported="false" />
+        <activity
+            android:name=".TamilnaduContainer"
+            android:exported="false" />
+        <activity
+            android:name=".SikkimVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".SikkimTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".SikkimTanker"
+            android:exported="false" />
+        <activity
+            android:name=".SikkimLorry"
+            android:exported="false" />
+        <activity
+            android:name=".SikkimLoading"
+            android:exported="false" />
+        <activity
+            android:name=".SikkimContainer"
+            android:exported="false" />
+        <activity
+            android:name=".RajasthanTanker"
+            android:exported="false" />
+        <activity
+            android:name=".RajasthanVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".RajasthanTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".RajasthanLorry"
+            android:exported="false" />
+        <activity
+            android:name=".RajasthanContainer"
+            android:exported="false" />
+        <activity
+            android:name=".RajasthanLoading"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabTanker"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabLorry"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabLoading"
+            android:exported="false" />
+        <activity
+            android:name=".PunjabContainer"
+            android:exported="false" />
+        <activity
+            android:name=".OdishaVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".OdishaTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".OdishaTanker"
+            android:exported="false" />
+        <activity
+            android:name=".OdishaLorry"
+            android:exported="false" />
+        <activity
+            android:name=".OdishaLoading"
+            android:exported="false" />
+        <activity
+            android:name=".OdishaContainer"
+            android:exported="false" />
+        <activity
+            android:name=".NepalVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".NepalTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".NepalTanker"
+            android:exported="false" />
+        <activity
+            android:name=".NepalLorry"
+            android:exported="false" />
+        <activity
+            android:name=".NepalLoading"
+            android:exported="false" />
+        <activity
+            android:name=".NepalContainer"
+            android:exported="false" />
+        <activity
+            android:name=".NagalandVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".NagalandTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".NagalandTanker"
+            android:exported="false" />
+        <activity
+            android:name=".NagalandLorry"
+            android:exported="false" />
+        <activity
+            android:name=".NagalandLoading"
+            android:exported="false" />
+        <activity
+            android:name=".NagalandContainer"
+            android:exported="false" />
+        <activity
+            android:name=".MpVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".MpTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".MpTanker"
+            android:exported="false" />
+        <activity
+            android:name=".MpLorry"
+            android:exported="false" />
+        <activity
+            android:name=".MpContainer"
+            android:exported="false" />
+        <activity
+            android:name=".MpLoading"
+            android:exported="false" />
+        <activity
+            android:name=".MizoramVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".MizoramTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".MizoramTanker"
+            android:exported="false" />
+        <activity
+            android:name=".MizoramLorry"
+            android:exported="false" />
+        <activity
+            android:name=".MizoramLoading"
+            android:exported="false" />
+        <activity
+            android:name=".MizoramContainer"
+            android:exported="false" />
+        <activity
+            android:name=".MeghalayaVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".MeghalayaTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".MeghalayaTanker"
+            android:exported="false" />
+        <activity
+            android:name=".MeghalayaLorry"
+            android:exported="false" />
+        <activity
+            android:name=".MeghalayaLoading"
+            android:exported="false" />
+        <activity
+            android:name=".MeghalayaContainer"
+            android:exported="false" />
+        <activity
+            android:name=".ManipurVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".ManipurTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".ManipurTanker"
+            android:exported="false" />
+        <activity
+            android:name=".ManipurLorry"
+            android:exported="false" />
+        <activity
+            android:name=".ManipurLoading"
+            android:exported="false" />
+        <activity
+            android:name=".ManipurContainer"
+            android:exported="false" />
+        <activity
+            android:name=".MaharashtraVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".MaharashtraTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".MaharashtraTanker"
+            android:exported="false" />
+        <activity
+            android:name=".MaharashtraLorry"
+            android:exported="false" />
+        <activity
+            android:name=".MaharashtraLoading"
+            android:exported="false" />
+        <activity
+            android:name=".MaharashtraContainer"
+            android:exported="false" />
+        <activity
+            android:name=".GujaratContainer"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaTanker"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaLorry"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaLoading"
+            android:exported="false" />
+        <activity
+            android:name=".KeralaContainer"
+            android:exported="false" />
+        <activity
+            android:name=".KarnatakaLorry"
+            android:exported="false" />
+        <activity
+            android:name=".KarnatakaVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".KarnatakaTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".KarnatakaTanker"
+            android:exported="false" />
+        <activity
+            android:name=".KarnatakaLoading"
+            android:exported="false" />
+        <activity
+            android:name=".KarnatakaContainer"
+            android:exported="false" />
+        <activity
+            android:name=".JkVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".JkTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".JkTanker"
+            android:exported="false" />
+        <activity
+            android:name=".JkLorry"
+            android:exported="false" />
+        <activity
+            android:name=".JkLoading"
+            android:exported="false" />
+        <activity
+            android:name=".JkContainer"
+            android:exported="false" />
+        <activity
+            android:name=".JharkhandVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".JharkhandTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".JharkhandTanker"
+            android:exported="false" />
+        <activity
+            android:name=".JharkhandLorry"
+            android:exported="false" />
+        <activity
+            android:name=".JharkhandLoading"
+            android:exported="false" />
+        <activity
+            android:name=".JharkhandContainer"
+            android:exported="false" />
+        <activity
+            android:name=".HimachalVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".HimachalTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".HimachalTanker"
+            android:exported="false" />
+        <activity
+            android:name=".HimachalLorry"
+            android:exported="false" />
+        <activity
+            android:name=".HimachalLoading"
+            android:exported="false" />
+        <activity
+            android:name=".HimachalContainer"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanaVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanaTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanaTanker"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanaLorry"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanaLoading"
+            android:exported="false" />
+        <activity
+            android:name=".HaryanaContainer"
+            android:exported="false" />
+        <activity
+            android:name=".GujaratVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".GujaratTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".GujaratTanker"
+            android:exported="false" />
+        <activity
+            android:name=".GujaratLoading"
+            android:exported="false" />
+        <activity
+            android:name=".GujaratLorry"
+            android:exported="false" />
+        <activity
+            android:name=".GoaVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".GoaTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".GoaTanker"
+            android:exported="false" />
+        <activity
+            android:name=".GoaLorry"
+            android:exported="false" />
+        <activity
+            android:name=".GoaLoading"
+            android:exported="false"
+            android:label="@string/title_activity_goa_loading" />
+        <activity
+            android:name=".GoaContainer"
+            android:exported="false" />
+        <activity
+            android:name=".DelhiVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".DelhiTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".DelhiTanker"
+            android:exported="false" />
+        <activity
+            android:name=".DelhiLorry"
+            android:exported="false" />
+        <activity
+            android:name=".DelhiLoading"
+            android:exported="false" />
+        <activity
+            android:name=".DelhiContainer"
+            android:exported="false" />
+        <activity
+            android:name=".ChattisgarhVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".ChattisgarhTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".ChattisgarhTanker"
+            android:exported="false" />
+        <activity
+            android:name=".ChattisgarhLorry"
+            android:exported="false" />
+        <activity
+            android:name=".ChattisgarhLoading"
+            android:exported="false" />
+        <activity
+            android:name=".ChattisgarhContainer"
+            android:exported="false" />
+        <activity
+            android:name=".BiharVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".BiharTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".BiharTanker"
+            android:exported="false" />
+        <activity
+            android:name=".BiharLorry"
+            android:exported="false" />
+        <activity
+            android:name=".BiharLoading"
+            android:exported="false" />
+        <activity
+            android:name=".BiharContainer"
+            android:exported="false" />
+        <activity
+            android:name=".BhutanVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".BhutanTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".BhutanTanker"
+            android:exported="false" />
+        <activity
+            android:name=".BhutanLorry"
+            android:exported="false" />
+        <activity
+            android:name=".BhutanLoading"
+            android:exported="false" />
+        <activity
+            android:name=".BhutanContainer"
+            android:exported="false" />
+        <activity
+            android:name=".AssamVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".AssamTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".AssamTanker"
+            android:exported="false" />
+        <activity
+            android:name=".AssamLorry"
+            android:exported="false" />
+        <activity
+            android:name=".AssamLoading"
+            android:exported="false" />
+        <activity
+            android:name=".AssamContainer"
+            android:exported="false" />
+        <activity
+            android:name=".ArunachalContainer"
+            android:exported="false" />
+        <activity
+            android:name=".ArunachalTanker"
+            android:exported="false" />
+        <activity
+            android:name=".ArunachalTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".ArunachalLorry"
+            android:exported="false" />
+        <activity
+            android:name=".ArunachalLoading"
+            android:exported="false" />
+        <activity
+            android:name=".ArunachalVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndhraTrailor"
+            android:exported="false" />
+        <activity
+            android:name=".AndhraTanker"
+            android:exported="false" />
+        <activity
+            android:name=".AndhraLorry"
+            android:exported="false" />
+        <activity
+            android:name=".AndhraContainer"
+            android:exported="false" />
+        <activity
+            android:name=".OtherState"
+            android:exported="false" />
+        <activity
+            android:name=".AndhraLoading"
+            android:exported="false" />
+        <activity
+            android:name=".AndhraVehicle"
+            android:exported="false" />
+        <activity
+            android:name=".Conditions"
+            android:exported="false" />
+        <activity
+            android:name=".Userlist2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".LargeImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BHUTAN"
+            android:exported="false" />
+        <activity
+            android:name=".NEPAL"
+            android:exported="false" />
+        <activity
+            android:name=".WBENGAL"
+            android:exported="false" />
+        <activity
+            android:name=".UTTARAKHAND"
+            android:exported="false" />
+        <activity
+            android:name=".UP"
+            android:exported="false" />
+        <activity
+            android:name=".TRIPURA"
+            android:exported="false" />
+        <activity
+            android:name=".TELANGANA"
+            android:exported="false" />
+        <activity
+            android:name=".TAMILNADU"
+            android:exported="false" />
+        <activity
+            android:name=".SIKKIM"
+            android:exported="false" />
+        <activity
+            android:name=".RAJASTHAN"
+            android:exported="false" />
+        <activity
+            android:name=".PUNJAB"
+            android:exported="false" />
+        <activity
+            android:name=".ODISHA"
+            android:exported="false" />
+        <activity
+            android:name=".NAGALAND"
+            android:exported="false" />
+        <activity
+            android:name=".MIZORAM"
+            android:exported="false" />
+        <activity
+            android:name=".MEGHALAYA"
+            android:exported="false" />
+        <activity
+            android:name=".MANIPUR"
+            android:exported="false" />
+        <activity
+            android:name=".MP"
+            android:exported="false" />
+        <activity
+            android:name=".MAHARASHTRA"
+            android:exported="false" />
+        <activity
+            android:name=".KERALA"
+            android:exported="false" />
+        <activity
+            android:name=".KARNATAKA"
+            android:exported="false" />
+        <activity
+            android:name=".JK"
+            android:exported="false" />
+        <activity
+            android:name=".JHARKHAND"
+            android:exported="false" />
+        <activity
+            android:name=".HIMACHAL"
+            android:exported="false" />
+        <activity
+            android:name=".HARYANA"
+            android:exported="false" />
+        <activity
+            android:name=".GUJARAT"
+            android:exported="false" />
+        <activity
+            android:name=".GOA"
+            android:exported="false" />
+        <activity
+            android:name=".DELHI"
+            android:exported="false" />
+        <activity
+            android:name=".CHATTISGARH"
+            android:exported="false" />
+        <activity
+            android:name=".BIHAR"
+            android:exported="false" />
+        <activity
+            android:name=".ASSAM"
+            android:exported="false" />
+        <activity
+            android:name=".ARUNACHAL"
+            android:exported="false" />
+        <activity
+            android:name=".userlist"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StateSelect"
+            android:exported="false" />
+        <activity
+            android:name=".UploadProfilePicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ReadwriteUserDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".ANDHRA"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity1"
+            android:exported="false" />
+        <activity
+            android:name=".IconActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9662F3"
+    tools:context=".JharkhandLoading">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/Jrlorry"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="45dp"
+            android:src="@drawable/addtext_04_29_09_18_12" />
+
+        <ImageView
+            android:id="@+id/Jrtrailor"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/addtext_04_28_12_51_42"
+            android:contentDescription="todot" />
+
+        <ImageView
+            android:id="@+id/Jrtanker"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/images"
+            android:contentDescription="todo" />
+
+        <ImageView
+            android:id="@+id/Jrcontainer"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/_eae77acf648f9b7d578930538782102"
+            android:contentDescription="todotex" />
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleviewjr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:scrollbars="vertical"
+        app:stackFromEnd="true"
+        app:reverseLayout="true"/>
+
+</RelativeLayout>

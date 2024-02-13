@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherState">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnAP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ANDHRA"
+                android:textColor="#1D31A3"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+
+            <Button
+                android:id="@+id/btnAR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="ARUNACHAL"
+                android:textColor="#1D31A3"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnAS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="ASSAM"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnBR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BIHAR"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnCG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHATTISGARH"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnDL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DELHI"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnGA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GOA"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnGJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GUJARAT"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnHR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HARYANA"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnHP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HIMACHAL"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnJR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JHARKHAND"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnJK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JAMMUKASHMIR"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnKA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KARNATAKA"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnKL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KERALA"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnMH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MAHARASHTRA"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnMN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MANIPUR"
+                android:textColor="#1D31A3"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+            <Button
+                android:id="@+id/btnAI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL INDIA"
+                android:textColor="#72CF06"
+                android:textStyle="bold"
+                android:backgroundTint="#FFEB3B"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#1D31A3"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnML"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MEGHALAYA"
+                android:textColor="#FFEB3B"
+                android:textStyle="bold"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnMR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MIZORAM"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnMP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MP"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnNL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAGALAND"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ODISHA"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnPB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PUNJAB"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnRJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAJASTHAN"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnSK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SIKKIM"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAMILNADU"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnTS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TELANGANA"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnTR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TRIPURAPR"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnUP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UP"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnUK"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UTTARAKHAND"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnwb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WBANGAL"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnNE"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NEPAL"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+            <Button
+                android:id="@+id/btnBH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:text="BHUTAN"
+                android:textStyle="bold"
+                android:textColor="#FFEB3B"
+                android:backgroundTint="#1D31A3"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
